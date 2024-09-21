@@ -14,6 +14,8 @@
 		961CD6102C9E62F00095E49B /* ChatProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD60F2C9E62F00095E49B /* ChatProTests.swift */; };
 		961CD61A2C9E62F00095E49B /* ChatProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD6192C9E62F00095E49B /* ChatProUITests.swift */; };
 		961CD61C2C9E62F00095E49B /* ChatProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD61B2C9E62F00095E49B /* ChatProUITestsLaunchTests.swift */; };
+		961CD62F2C9E65C30095E49B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD62E2C9E65C30095E49B /* LoginView.swift */; };
+		961CD6312C9E65EA0095E49B /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD6302C9E65EA0095E49B /* RegisterationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		961CD6152C9E62F00095E49B /* ChatProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		961CD6192C9E62F00095E49B /* ChatProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatProUITests.swift; sourceTree = "<group>"; };
 		961CD61B2C9E62F00095E49B /* ChatProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		961CD62E2C9E65C30095E49B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		961CD6302C9E65EA0095E49B /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,11 @@
 		961CD5FD2C9E62EF0095E49B /* ChatPro */ = {
 			isa = PBXGroup;
 			children = (
+				961CD62C2C9E64FC0095E49B /* Model */,
+				961CD62B2C9E64F60095E49B /* View */,
+				961CD62A2C9E64F20095E49B /* ViewModel */,
+				961CD6292C9E64F00095E49B /* API */,
+				961CD6282C9E64E40095E49B /* Utils */,
 				961CD5FE2C9E62EF0095E49B /* ChatProApp.swift */,
 				961CD6002C9E62EF0095E49B /* ContentView.swift */,
 				961CD6022C9E62F00095E49B /* Assets.xcassets */,
@@ -125,6 +134,51 @@
 				961CD61B2C9E62F00095E49B /* ChatProUITestsLaunchTests.swift */,
 			);
 			path = ChatProUITests;
+			sourceTree = "<group>";
+		};
+		961CD6282C9E64E40095E49B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		961CD6292C9E64F00095E49B /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		961CD62A2C9E64F20095E49B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		961CD62B2C9E64F60095E49B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				961CD62D2C9E65920095E49B /* Authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		961CD62C2C9E64FC0095E49B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		961CD62D2C9E65920095E49B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				961CD62E2C9E65C30095E49B /* LoginView.swift */,
+				961CD6302C9E65EA0095E49B /* RegisterationView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961CD62F2C9E65C30095E49B /* LoginView.swift in Sources */,
+				961CD6312C9E65EA0095E49B /* RegisterationView.swift in Sources */,
 				961CD6012C9E62EF0095E49B /* ContentView.swift in Sources */,
 				961CD5FF2C9E62EF0095E49B /* ChatProApp.swift in Sources */,
 			);
