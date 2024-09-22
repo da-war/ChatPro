@@ -16,6 +16,7 @@
 		961CD61C2C9E62F00095E49B /* ChatProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD61B2C9E62F00095E49B /* ChatProUITestsLaunchTests.swift */; };
 		961CD62F2C9E65C30095E49B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD62E2C9E65C30095E49B /* LoginView.swift */; };
 		961CD6312C9E65EA0095E49B /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD6302C9E65EA0095E49B /* RegisterationView.swift */; };
+		964C460F2C9FB03100B6F68A /* CustomFieldText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964C460E2C9FB03100B6F68A /* CustomFieldText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		961CD61B2C9E62F00095E49B /* ChatProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatProUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		961CD62E2C9E65C30095E49B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		961CD6302C9E65EA0095E49B /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
+		964C460E2C9FB03100B6F68A /* CustomFieldText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFieldText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		961CD6282C9E64E40095E49B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				964C460E2C9FB03100B6F68A /* CustomFieldText.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				961CD62F2C9E65C30095E49B /* LoginView.swift in Sources */,
 				961CD6312C9E65EA0095E49B /* RegisterationView.swift in Sources */,
 				961CD6012C9E62EF0095E49B /* ContentView.swift in Sources */,
+				964C460F2C9FB03100B6F68A /* CustomFieldText.swift in Sources */,
 				961CD5FF2C9E62EF0095E49B /* ChatProApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
