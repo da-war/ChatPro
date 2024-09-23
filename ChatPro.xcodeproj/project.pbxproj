@@ -17,6 +17,10 @@
 		961CD62F2C9E65C30095E49B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD62E2C9E65C30095E49B /* LoginView.swift */; };
 		961CD6312C9E65EA0095E49B /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CD6302C9E65EA0095E49B /* RegisterationView.swift */; };
 		964C460F2C9FB03100B6F68A /* CustomFieldText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964C460E2C9FB03100B6F68A /* CustomFieldText.swift */; };
+		96E2EF2E2CA11B2B008B7573 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2EF2D2CA11B2B008B7573 /* MainTabView.swift */; };
+		96E2EF302CA11BE3008B7573 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2EF2F2CA11BE3008B7573 /* ChatView.swift */; };
+		96E2EF322CA11BF0008B7573 /* GroupChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2EF312CA11BF0008B7573 /* GroupChatView.swift */; };
+		96E2EF342CA11BFF008B7573 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2EF332CA11BFF008B7573 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		961CD62E2C9E65C30095E49B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		961CD6302C9E65EA0095E49B /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
 		964C460E2C9FB03100B6F68A /* CustomFieldText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFieldText.swift; sourceTree = "<group>"; };
+		96E2EF2D2CA11B2B008B7573 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		96E2EF2F2CA11BE3008B7573 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		96E2EF312CA11BF0008B7573 /* GroupChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatView.swift; sourceTree = "<group>"; };
+		96E2EF332CA11BFF008B7573 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +171,7 @@
 		961CD62B2C9E64F60095E49B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				96E2EF2C2CA11B0E008B7573 /* Main */,
 				961CD62D2C9E65920095E49B /* Authentication */,
 			);
 			path = View;
@@ -182,6 +191,25 @@
 				961CD6302C9E65EA0095E49B /* RegisterationView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		96E2EF2C2CA11B0E008B7573 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				96E2EF352CA11C07008B7573 /* Tabs */,
+				96E2EF2D2CA11B2B008B7573 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		96E2EF352CA11C07008B7573 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				96E2EF332CA11BFF008B7573 /* SettingView.swift */,
+				96E2EF312CA11BF0008B7573 /* GroupChatView.swift */,
+				96E2EF2F2CA11BE3008B7573 /* ChatView.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,8 +345,12 @@
 				961CD62F2C9E65C30095E49B /* LoginView.swift in Sources */,
 				961CD6312C9E65EA0095E49B /* RegisterationView.swift in Sources */,
 				961CD6012C9E62EF0095E49B /* ContentView.swift in Sources */,
+				96E2EF342CA11BFF008B7573 /* SettingView.swift in Sources */,
 				964C460F2C9FB03100B6F68A /* CustomFieldText.swift in Sources */,
+				96E2EF302CA11BE3008B7573 /* ChatView.swift in Sources */,
 				961CD5FF2C9E62EF0095E49B /* ChatProApp.swift in Sources */,
+				96E2EF322CA11BF0008B7573 /* GroupChatView.swift in Sources */,
+				96E2EF2E2CA11B2B008B7573 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
