@@ -14,21 +14,21 @@ struct MainTabView: View {
                 // Home (ChatView)
                 ChatView()
                     .tabItem {
-                        Image(systemName: "message.fill")
+                        Image(systemName: "bubble.left")
                         Text("Home")
                     }
                 
                 // Settings (GroupChatView)
                 GroupChatView()
                     .tabItem {
-                        Image(systemName: "gearshape.fill")
+                        Image(systemName: "bubble.left.and.bubble.right")
                         Text("Settings")
                     }
                 
                 // Profile (SettingView)
                 SettingView()
                     .tabItem {
-                        Image(systemName: "person.fill")
+                        Image(systemName: "gear")
                         Text("Profile")
                     }
             }

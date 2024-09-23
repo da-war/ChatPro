@@ -171,6 +171,9 @@
 		961CD62B2C9E64F60095E49B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				963AEA442CA1204B0088CBEA /* Settings */,
+				963AEA432CA1203D0088CBEA /* Channels */,
+				96E2EF352CA11C07008B7573 /* Chats */,
 				96E2EF2C2CA11B0E008B7573 /* Main */,
 				961CD62D2C9E65920095E49B /* Authentication */,
 			);
@@ -193,23 +196,36 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		963AEA432CA1203D0088CBEA /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				96E2EF312CA11BF0008B7573 /* GroupChatView.swift */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		963AEA442CA1204B0088CBEA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				96E2EF332CA11BFF008B7573 /* SettingView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		96E2EF2C2CA11B0E008B7573 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				96E2EF352CA11C07008B7573 /* Tabs */,
 				96E2EF2D2CA11B2B008B7573 /* MainTabView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		96E2EF352CA11C07008B7573 /* Tabs */ = {
+		96E2EF352CA11C07008B7573 /* Chats */ = {
 			isa = PBXGroup;
 			children = (
-				96E2EF332CA11BFF008B7573 /* SettingView.swift */,
-				96E2EF312CA11BF0008B7573 /* GroupChatView.swift */,
 				96E2EF2F2CA11BE3008B7573 /* ChatView.swift */,
 			);
-			path = Tabs;
+			path = Chats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
